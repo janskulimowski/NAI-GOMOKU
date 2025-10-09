@@ -1,0 +1,2 @@
+# NAI-GOMOKU
+NAI | GIn I.7 - 75c | s27144, s26966
