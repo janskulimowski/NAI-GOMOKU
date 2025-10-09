@@ -1,53 +1,57 @@
-#Gomoku (Pięć w Rzędzie)
+# Gomoku (Pięć w Rzę­dzie)
 
-Opis projektu
+## Opis pro­jektu
 
-Projekt polega na implementacji turowej, deterministycznej gry dwuosobowej o sumie zerowej, w której dwóch graczy rywalizuje, aby ułożyć pięć swoich pionków w rzędzie (poziomo, pionowo lub na ukos) na planszy 10x10. Gra jest odmianą klasycznego Kółko i Krzyżyk, ale z większą planszą i celem.
+Pro­jekt polega na imple­men­ta­cji turo­wej, deter­mi­ni­stycz­nej gry dwu­oso­bo­wej o sumie zero­wej, w któ­rej dwóch gra­czy rywa­li­zuje, aby uło­żyć pięć swo­ich pion­ków w rzę­dzie (poziomo, pio­nowo lub na ukos) na plan­szy **10x10**. Gra jest odmianą kla­sycz­nego **Kółko i Krzy­żyk**, ale z więk­szą plan­szą i celem.
 
-W ramach zadania, poza samą grą, zaimplementowano również sztuczną inteligencję (SI), która potrafi grać przeciwko człowiekowi, wykorzystując bibliotekę EasyAI i algorytm Negamax.
+W ramach zada­nia, poza samą grą, zaim­ple­men­to­wano rów­nież sztuczną inte­li­gen­cję (**SI**), która potrafi grać prze­ciwko czło­wie­kowi, wyko­rzy­stu­jąc biblio­tekę **EasyAI** i algo­rytm **Nega­max**.
 
-Instrukcja przygotowania środowiska i uruchomienia
 
-Wymagania wstępne
+## Wyma­ga­nia wstępne
 
-Projekt został zaimplementowany w języku Python. Wymaga zainstalowania biblioteki EasyAI.
+Pro­jekt został zaim­ple­men­to­wany w języku Python. Wymaga zain­sta­lo­wa­nia biblio­teki EasyAI.
 
-Możesz zainstalować wymagane pakiety, używając poniższego polecenia:
-Bash
+Możesz zain­sta­lo­wać wyma­gane pakiety, uży­wa­jąc poniż­szego pole­ce­nia:
 
-pip install easyAI
 
-Uruchomienie
+    pip install easyAI
 
-Aby uruchomić grę, wykonaj następujące polecenie w terminalu, będąc w głównym katalogu projektu:
-Bash
+## Uru­cho­mie­nie
 
-python gomoku.py
+Aby uru­cho­mić grę, wyko­naj nastę­pu­jące pole­ce­nie w ter­mi­nalu, będąc w głów­nym kata­logu pro­jektu:
 
-Zasady gry
+    python gomoku.py
 
-Celem gry jest ułożenie pięciu pionków tego samego koloru w jednym, ciągłym rzędzie. Może to być linia pozioma, pionowa lub diagonalna.
+## Zasady gry
 
-    Gra toczy się na planszy o wymiarach 10x10.
+Celem gry jest uło­że­nie pię­ciu pion­ków tego samego koloru w jed­nym, cią­głym rzę­dzie. Może to być linia pozioma, pio­nowa lub dia­go­nalna.
 
-    Gracze na zmianę stawiają swoje pionki na planszy, podając współrzędne x,y.
+Gra toczy się na plan­szy o wymia­rach **10x10**
 
-    Pierwszy gracz, który ułoży pięć pionków w rzędzie, wygrywa.
+Gra­cze na zmianę sta­wiają swoje pionki na plan­szy, poda­jąc współ­rzędne:
 
-    Jeśli cała plansza zostanie zapełniona i żaden z graczy nie ułoży pięciu w rzędzie, gra kończy się remisem.
+    x,y
 
-Zaimplementowane algorytmy
+Pierw­szy gracz, który ułoży **pięć pion­ków w rzę­dzie**, wygrywa.
 
-    Negamax: Jest to wariant algorytmu minimax przeznaczony do gier o sumie zerowej. Działa na zasadzie, że gracz, który ma się ruszyć, chce zmaksymalizować swoją ocenę, podczas gdy jego przeciwnik chce ją zminimalizować.
+Jeśli cała plan­sza zosta­nie zapeł­niona i żaden z gra­czy nie ułoży pię­ciu w rzę­dzie, gra koń­czy się remi­sem.
 
-    Heurystyka punktowa: W kodzie znajduje się funkcja scoring, która ocenia stan planszy, dając wyższą wartość ciągom pionków własnego gracza i niższą ciągom pionków przeciwnika. Zapewnia to, że SI podejmuje strategiczne decyzje, dążąc do tworzenia własnych linii, jednocześnie blokując przeciwnika.
+## Zaim­ple­men­to­wane algo­rytmy
 
-Zrzut ekranu z rozgrywki
+### Nega­max: 
+Jest to wariant algo­rytmu mini­max prze­zna­czony do gier o sumie zero­wej. Działa na zasa­dzie, że gracz, który ma się ruszyć, chce zmak­sy­ma­li­zo­wać swoją ocenę, pod­czas gdy jego prze­ciw­nik chce ją zmi­ni­ma­li­zo­wać.
+
+### Heu­ry­styka punk­towa: 
+W kodzie znaj­duje się funk­cja sco­ring, która oce­nia stan plan­szy, dając wyż­szą war­tość cią­gom pion­ków wła­snego gra­cza i niż­szą cią­gom pion­ków prze­ciw­nika. Zapew­nia to, że SI podej­muje stra­te­giczne decy­zje, dążąc do two­rze­nia wła­snych linii, jed­no­cze­śnie blo­ku­jąc prze­ciw­nika.
 
 ************************
 
-Autorzy
+## Zrzut ekranu z roz­grywki
 
-    Jan Skulimowski (s27144)
+************************
 
-    Kamil Littwitz (s26966)
+## Auto­rzy
+
+*Jan Sku­li­mow­ski (s27144)*
+
+*Kamil Lit­twitz (s26966)*
