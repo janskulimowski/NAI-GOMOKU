@@ -14,7 +14,7 @@ Pro­jekt został zaim­ple­men­to­wany w języku Python. Wymaga zain­sta­l
 
 Możesz zain­sta­lo­wać wyma­gane pakiety, uży­wa­jąc poniż­szego pole­ce­nia:
 
-
+    Python 3.10+
     pip install easyAI
 
 ## Uru­cho­mie­nie
