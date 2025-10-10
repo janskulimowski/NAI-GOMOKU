@@ -1,11 +1,12 @@
-# Gomoku (Pięć w Rzę­dzie)
+<p align="center">
+<img src="https://github.com/janskulimowski/NAI-GOMOKU/blob/main/gomoku_logo.png?raw=true" width="400" alt="Gomoku" />
+</p>
 
 ## Opis pro­jektu
 
 Pro­jekt polega na imple­men­ta­cji turo­wej, deter­mi­ni­stycz­nej gry dwu­oso­bo­wej o sumie zero­wej, w któ­rej dwóch gra­czy rywa­li­zuje, aby uło­żyć pięć swo­ich pion­ków w rzę­dzie (poziomo, pio­nowo lub na ukos) na plan­szy **10x10**. Gra jest odmianą kla­sycz­nego **Kółko i Krzy­żyk**, ale z więk­szą plan­szą i celem.
 
 W ramach zada­nia, poza samą grą, zaim­ple­men­to­wano rów­nież sztuczną inte­li­gen­cję (**SI**), która potrafi grać prze­ciwko czło­wie­kowi, wyko­rzy­stu­jąc biblio­tekę **EasyAI** i algo­rytm **Nega­max**.
-
 
 ## Wyma­ga­nia wstępne
 
