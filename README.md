@@ -26,6 +26,7 @@ Aby uru­cho­mić grę, wyko­naj nastę­pu­jące pole­ce­nie w ter­mi­na
 ## Zasady gry
 
 Celem gry jest uło­że­nie pię­ciu pion­ków tego samego koloru w jed­nym, cią­głym rzę­dzie. Może to być linia pozioma, pio­nowa lub dia­go­nalna.
+Link: https://pl.wikipedia.org/wiki/Gomoku
 
 Gra toczy się na plan­szy o wymia­rach **10x10**
 
