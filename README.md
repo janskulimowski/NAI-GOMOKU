@@ -16,6 +16,8 @@ Możesz zain­sta­lo­wać wyma­gane pakiety, uży­wa­jąc poniż­szego pol
 
     Python 3.10+
     pip install easyAI
+    git clone https://github.com/janskulimowski/NAI-GOMOKU.git
+    cd NAI-GOMOKU
 
 ## Uru­cho­mie­nie
 
