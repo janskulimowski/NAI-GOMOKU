@@ -1,11 +1,41 @@
+# Zasady/zadanie: https://pl.wikipedia.org/wiki/Gomoku
+#Link do repozytorium (publiczne): https://github.com/janskulimowski/NAI-GOMOKU/
+# Autorzy: Jan Skulimowski (s27144), Kamil Littwitz (s26966)                            
+# Przygotowanie środowiska:
+#   - Python 3.10+
+#   - pip install easyAI
+#   - Uruchom: python gomoku.py
+
+"""
+Gomoku (pięć w rzędzie) oparte o easyAI.
+
+Opis:
+    Implementacja gry dwuosobowej (człowiek vs AI). Gracz 1 = 'X', Gracz 2 = 'O'.
+    Silnik wykorzystuje Negamax z zadaną głębokością.
+    Jako ruch wpisywać x,y (rząd, kolumna)
+Wymagania:
+    Python 3.10+, easyAI
+
+Uruchomienie:
+    python gomoku.py
+"""
+
 from easyAI import TwoPlayerGame, Human_Player, AI_Player, Negamax
 
 
 class Gomoku(TwoPlayerGame):
     def __init__(self, players, size=10, win_len=5):
-        # players: lista 2 obiektów graczy (człowiek/AI)
-        # size: rozmiar planszy (size x size)
-        # win_len: ile w rzędzie trzeba ustawić, aby wygrać
+        """
+        Inicjalizuje grę Gomoku.
+
+        Parameters:
+            players (list): [Human_Player(), AI_Player(...)] – dwóch graczy w kolejności tur.
+            size (int): Rozmiar planszy (size x size).
+            win_len (int): Długość linii jednakowych znaków wymagana do wygranej.
+
+        Returns:
+            None
+        """
         self.players = players
         self.size = size
         self.win_len = win_len
