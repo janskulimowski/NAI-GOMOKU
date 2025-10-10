@@ -163,7 +163,7 @@ class Gomoku(TwoPlayerGame):
 if __name__ == "__main__":
     # Konfigurujemy algorytm AI: Negamax z głębokością 4.
     # Większa głębokość = lepsza gra, ale wolniejsze działanie.
-    ai_algo = Negamax(4)
+    ai_algo = Negamax(3)
 
     # Tworzymy instancję gry:
     # - Gracz 1: człowiek (stawia 'X', zaczyna),
@@ -175,3 +175,12 @@ if __name__ == "__main__":
     # Uruchamiamy pętlę gry (easyAI zajmuje się naprzemiennymi turami,
     # pytaniem człowieka o ruch, wołaniem AI itd.)
     game.play()
+
+    # --- komunikat o wyniku po zakończeniu gry ---
+    w = game.win()
+    if w == 1:
+        print("Wygrał gracz (X)!\n")
+    elif w == 2:
+        print("Wygrało SI (O)!\n")
+    else:
+        print("Remis!")
