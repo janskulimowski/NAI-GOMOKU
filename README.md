@@ -56,6 +56,7 @@ W kodzie znaj­duje się funk­cja sco­ring, która oce­nia stan plan­szy, da
 
 *Kamil Lit­twitz (s26966)*
 
+************************
 
-![alt text](https://github.com/janskulimowski/NAI-GOMOKU/blob/main/gm-image.jpg?raw=true)
+<img src="https://github.com/janskulimowski/NAI-GOMOKU/blob/main/gm-image.jpg?raw=true" width="400" alt="Gomoku" />
 
