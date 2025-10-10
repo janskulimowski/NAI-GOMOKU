@@ -58,5 +58,5 @@ W kodzie znaj­duje się funk­cja sco­ring, która oce­nia stan plan­szy, da
 
 ************************
 <p align="center">
-<img src="https://github.com/janskulimowski/NAI-GOMOKU/blob/main/gm-image.jpg?raw=true" width="400" alt="Gomoku" />
+<img src="https://github.com/janskulimowski/NAI-GOMOKU/blob/main/gm-image.jpg?raw=true" width="500" alt="Gomoku" />
 </p>
