@@ -51,6 +51,9 @@ W kodzie znaj­duje się funk­cja sco­ring, która oce­nia stan plan­szy, da
 ************************
 
 ## Zrzut ekranu z roz­grywki
+<p align="center">
+<img src="https://github.com/janskulimowski/NAI-GOMOKU/blob/main/gomoku_example_game.png?raw=true" alt="Gomoku Example Game" />
+</p>
 
 ************************
 
