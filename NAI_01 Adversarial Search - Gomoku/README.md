@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://github.com/janskulimowski/NAI-GOMOKU/blob/main/gomoku_logo.png?raw=true" width="400" alt="Gomoku" />
+<img src="https://github.com/janskulimowski/NAI-GOMOKU/blob/main/NAI_01 Adversarial Search - Gomoku/gomoku_logo.png?raw=true" width="400" alt="Gomoku" />
 </p>
 
 ## Opis pro­jektu
@@ -52,7 +52,7 @@ W kodzie znaj­duje się funk­cja sco­ring, która oce­nia stan plan­szy, da
 
 ## Zrzut ekranu z roz­grywki
 <p align="center">
-<img src="https://github.com/janskulimowski/NAI-GOMOKU/blob/main/gomoku_example_game.png?raw=true" alt="Gomoku Example Game" />
+<img src="https://github.com/janskulimowski/NAI-GOMOKU/blob/main/NAI_01 Adversarial Search - Gomoku/gomoku_example_game.png?raw=true" alt="Gomoku Example Game" />
 </p>
 
 ************************
@@ -65,5 +65,5 @@ W kodzie znaj­duje się funk­cja sco­ring, która oce­nia stan plan­szy, da
 
 ************************
 <p align="center">
-<img src="https://github.com/janskulimowski/NAI-GOMOKU/blob/main/gm-image.jpg?raw=true" width="500" alt="Gomoku" />
+<img src="https://github.com/janskulimowski/NAI-GOMOKU/blob/main/NAI_01 Adversarial Search - Gomoku/gm-image.jpg?raw=true" width="500" alt="Gomoku" />
 </p>
