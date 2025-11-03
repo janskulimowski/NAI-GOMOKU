@@ -30,7 +30,7 @@ PRZYGOTOWANIE ŚRODOWISKA:
    pip install numpy scikit-fuzzy
 
 3. Uruchomienie programu:
-   python nazwa_pliku.py
+   python fuzzy_light_control.py
 
 ===================================================================
 """
