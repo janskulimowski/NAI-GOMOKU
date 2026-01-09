@@ -73,7 +73,7 @@ class FlagDetector:
             loc = np.where(result >= threshold)
 
             # Iteruj po znalezionych punktach (zip łączy współrzędne y i x)
-            # Używamy prostego mechanizmu, by nie wykrywać tej samej flagi wielokrotnie (non-maximum suppression - uproszczone)
+            # Używamy prostego mechanizmu, by nie wykrywać tej samej flagi wielokrotnie
             points = list(zip(*loc[::-1]))
 
             if points:
@@ -95,9 +95,6 @@ class FlagDetector:
                             'wysokosc': h
                         }
                     })
-
-                    # Opcjonalnie: Rysuj prostokąt na obrazie w pamięci (do debugowania)
-                    # cv2.rectangle(screen_img, top_left, bottom_right, (0, 255, 0), 2)
 
         return detected_flags
 
